@@ -1,0 +1,14 @@
+def fib(n):
+	max = 0
+	if n == 1:
+		return 1
+	else:
+		max[n] def fib(n):
+...     if n == 1 and n == 2:
+...             return 1
+...     else :
+...             fib(n) = fib(n-1) + fib(n-2)
+		ans = fib(n-1) +fib(n-2)
+	return ans
+t = int(input())
+print(fib(t))
